@@ -6,7 +6,7 @@ python3 /private/groups/brookslab/gabai/tools/epiflair/src/count_nuc.py \
     -gt /private/groups/brookslab/gabai/projects/yeastMeth/data/ref/sacCer3_ares_v13_sorted.bed \
     -nuc /private/groups/brookslab/gabai/projects/yeastMeth/data/dna/nuc_calling/250331_cutoff125_ys18_150UNuc_Rep1_R10_movesOut_full_fibertool_nuc_filtered.bed \
     -o /scratch/gabai/yeast_methyl/ \
-    -p 251012_nuc_count_n_cluster_6_ys18_rep1_conv_euc \
+    -p 260312_nuc_count_n_cluster_6_ys18_rep1_conv_euc_promoter_restricted \
     -t 32 \
     -nc 6 \
     --annot_plus_one \
@@ -20,7 +20,7 @@ python3 /private/groups/brookslab/gabai/tools/epiflair/src/count_nuc.py \
     -gt /private/groups/brookslab/gabai/projects/yeastMeth/data/ref/sacCer3_ares_v13_sorted.bed \
     -nuc /private/groups/brookslab/gabai/projects/yeastMeth/data/dna/nuc_calling/250331_cutoff125_ys18_150UNuc_Rep2_R10_movesOut_full_fibertool_nuc_filtered.bed \
     -o /scratch/gabai/yeast_methyl/ \
-    -p 251012_nuc_count_n_cluster_6_ys18_rep2_conv_euc \
+    -p 260312_nuc_count_n_cluster_6_ys18_rep2_conv_euc_promoter_restricted \
     -t 16 \
     -nc 6 \
     --annot_plus_one \
@@ -34,7 +34,7 @@ python3 /private/groups/brookslab/gabai/tools/epiflair/src/count_nuc.py \
     -gt /private/groups/brookslab/gabai/projects/yeastMeth/data/ref/sacCer3_ares_v13_sorted.bed \
     -nuc /private/groups/brookslab/gabai/projects/yeastMeth/data/dna/nuc_calling/250331_cutoff125_ym209_150UNUC_Rep1_R10_movesout_full_fibertool_nuc_filtered.bed \
     -o /scratch/gabai/yeast_methyl/ \
-    -p 251012_nuc_count_n_cluster_6_ym209_rep1_conv_euc \
+    -p 260312_nuc_count_n_cluster_6_ym209_rep1_conv_euc_promoter_restricted \
     -t 16 \
     -nc 6 \
     --annot_plus_one \
@@ -50,7 +50,7 @@ python3 /private/groups/brookslab/gabai/tools/epiflair/src/count_nuc.py \
     -gt /private/groups/brookslab/gabai/projects/yeastMeth/data/ref/sacCer3_ares_v13_sorted.bed \
     -nuc /private/groups/brookslab/gabai/projects/yeastMeth/data/dna/nuc_calling/250331_cutoff125_ym209_150UNUC_Rep2_R10_movesout_full_fibertool_nuc_filtered.bed \
     -o /scratch/gabai/yeast_methyl/ \
-    -p 251012_nuc_count_n_cluster_6_ym209_rep2_conv_euc \
+    -p 260312_nuc_count_n_cluster_6_ym209_rep2_conv_euc_promoter_restricted \
     -t 16 \
     -nc 6 \
     --annot_plus_one \

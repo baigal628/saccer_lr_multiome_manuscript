@@ -1,0 +1,33 @@
+# teloprime RNA isoform quantification by tss annotation
+python3 /private/groups/brookslab/gabai/tools/epiflair/src/isoQuant.py \
+     -b \
+        /private/groups/brookslab/gabai/projects/yeastMeth/data/rna/teloprime/tx_alignment/250920_teloprime_ys18_rep1_trimmed_merged.pass.sorted.bam \
+        /private/groups/brookslab/gabai/projects/yeastMeth/data/rna/teloprime/tx_alignment/250920_teloprime_ys18_rep2_trimmed_merged.pass.sorted.bam \
+        /private/groups/brookslab/gabai/projects/yeastMeth/data/rna/teloprime/tx_alignment/250920_teloprime_ys18_rep3_trimmed_merged.pass.sorted.bam \
+        /private/groups/brookslab/gabai/projects/yeastMeth/data/rna/teloprime/tx_alignment/250920_teloprime_ym209_rep1_trimmed_merged.pass.sorted.bam \
+        /private/groups/brookslab/gabai/projects/yeastMeth/data/rna/teloprime/tx_alignment/250920_teloprime_ym209_rep2_trimmed_merged.pass.sorted.bam \
+        /private/groups/brookslab/gabai/projects/yeastMeth/data/rna/teloprime/tx_alignment/250920_teloprime_ym209_rep3_trimmed_merged.pass.sorted.bam \
+    -s ys18_rep1 ys18_rep2 ys18_rep3 ym209_rep1 ym209_rep2 ym209_rep3 \
+    -r /private/groups/brookslab/gabai/projects/yeastMeth/data/ref/sacCer3_ares_v13_extended_sorted.bed \
+    -g /private/groups/brookslab/gabai/projects/yeastMeth/data/ref/sacCer3_ares_v13_sorted.bed \
+    -o /private/groups/brookslab/gabai/projects/yeastMeth/data/rna/teloprime/isoquant/ \
+    -p 250921_teloprime_tx_alignment_annot_by_tss \
+    --annot_tx_by_start \
+    --add_isoannot \
+    --tx_alignment
+
+python3 /private/groups/brookslab/gabai/tools/epiflair/src/isoQuant.py \
+     -b \
+        /private/groups/brookslab/gabai/projects/yeastMeth/data/rna/teloprime/tx_alignment/250920_teloprime_ys18_rep1_trimmed_merged.pass.sorted.bam \
+        /private/groups/brookslab/gabai/projects/yeastMeth/data/rna/teloprime/tx_alignment/250920_teloprime_ys18_rep2_trimmed_merged.pass.sorted.bam \
+        /private/groups/brookslab/gabai/projects/yeastMeth/data/rna/teloprime/tx_alignment/250920_teloprime_ys18_rep3_trimmed_merged.pass.sorted.bam \
+        /private/groups/brookslab/gabai/projects/yeastMeth/data/rna/teloprime/tx_alignment/250920_teloprime_ym209_rep1_trimmed_merged.pass.sorted.bam \
+        /private/groups/brookslab/gabai/projects/yeastMeth/data/rna/teloprime/tx_alignment/250920_teloprime_ym209_rep2_trimmed_merged.pass.sorted.bam \
+        /private/groups/brookslab/gabai/projects/yeastMeth/data/rna/teloprime/tx_alignment/250920_teloprime_ym209_rep3_trimmed_merged.pass.sorted.bam \
+    -s ys18_rep1 ys18_rep2 ys18_rep3 ym209_rep1 ym209_rep2 ym209_rep3 \
+    -r /private/groups/brookslab/gabai/projects/yeastMeth/data/ref/sacCer3_ares_v13_extended_sorted.bed \
+    -g /private/groups/brookslab/gabai/projects/yeastMeth/data/ref/sacCer3_ares_v13_sorted.bed \
+    -o /private/groups/brookslab/gabai/projects/yeastMeth/data/rna/teloprime/isoquant/ \
+    -p 250925_teloprime_tx_alignment \
+    --tx_alignment
+
