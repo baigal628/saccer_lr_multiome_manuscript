@@ -2,7 +2,8 @@ nascent_inpath="/private/groups/brookslab/gabai/projects/yeastMeth/data/rna/nasc
 teloprime_inpath="/private/groups/brookslab/gabai/projects/yeastMeth/data/rna/teloprime/alignment/iso_annot/"
 outpath="/private/groups/brookslab/gabai/projects/yeastMeth/figures/"
 
-gene_regions=("UBC13" "chrIV:629299-630655" 650)
+# gene_regions=("UBC13" "chrIV:629299-630655" 650)
+gene_regions=("RPS21A" "chrXI:551367-552292" 7000)
 ## plot teloprime isoforms by splicing annotation
 extend=0
 
@@ -51,7 +52,8 @@ for i in $(seq 0 3 $(( ${#gene_regions[@]} - 3 ))); do
         
 done
 
-gene_regions=("UBC13" "chrIV:629299-630655" 150)
+# gene_regions=("UBC13" "chrIV:629299-630655" 150)
+gene_regions=("RPS21A" "chrXI:551367-552292" 4000)
 # nascent
 for i in $(seq 0 3 $(( ${#gene_regions[@]} - 3 ))); do
     gene_id=${gene_regions[$i]}
